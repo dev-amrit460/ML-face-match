@@ -1,7 +1,7 @@
 import streamlit as sl
 from PIL import Image
 import os
-# import cv2
+import cv2
 import numpy as np
 from keras_vggface.vggface import VGGFace
 from keras_vggface.utils import preprocess_input
@@ -25,8 +25,7 @@ def upload_img(data):
 
 
 def feature_extract(img_path, model, detector):
-    test_img = Image.open(img_path)
-    test_img= np.array(test_img)
+    test_img = cv2.imread(img_path)
     results = detector.detect_faces(test_img)
     x, y, width, height = results[0]['box']
 
