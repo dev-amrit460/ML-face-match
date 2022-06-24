@@ -1,7 +1,7 @@
 keras_vggface==0.6
 mtcnn==0.1.1
 numpy
-opencv_python==4.6.0.66
+opencv-python
 Pillow==9.1.1
 pip==22.1.2
 scikit_learn==1.0.2
