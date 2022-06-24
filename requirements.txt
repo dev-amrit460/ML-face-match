@@ -1,4 +1,3 @@
-protobuf==3.19.4
 keras==2.4.3
 keras_vggface==0.6
 mtcnn==0.1.0
@@ -7,7 +6,8 @@ opencv-python
 Pillow==9.1.1
 pip==22.1.2
 scikit_learn==1.0.2
-streamlit==1.10.0
+streamlit
 tensorflow==2.3.1
 tqdm==4.64.0
+protobuf==3.19.4
 
