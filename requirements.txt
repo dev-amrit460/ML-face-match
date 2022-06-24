@@ -1,13 +1,11 @@
-keras==2.4.3
+python==3.7.0
 keras_vggface==0.6
 mtcnn==0.1.0
 numpy==1.18.5
-opencv-python
+opencv_python==4.6.0.66
 Pillow==9.1.1
 pip==22.1.2
 sklearn
-streamlit
+streamlit==1.10.0
 tensorflow==2.3.1
 tqdm==4.64.0
-protobuf==3.19.4
-
