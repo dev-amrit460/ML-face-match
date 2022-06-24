@@ -2,7 +2,7 @@ protobuf==3.19.4
 keras==2.4.3
 keras_vggface==0.6
 mtcnn==0.1.0
-numpy==1.14.6
+numpy==1.18.5
 opencv-python
 Pillow==9.1.1
 pip==22.1.2
